@@ -4,7 +4,14 @@
   "version": "1.0.1",
   "author": "Dennis Vash <dennisvash@gmail.com>",
   "license": "MIT",
-  "keywords": ["gatsby", "template", "tailwind", "storybook", "styled-components", "css-in-js"],
+  "keywords": [
+    "gatsby",
+    "template",
+    "tailwind",
+    "storybook",
+    "styled-components",
+    "css-in-js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/denvash/gatsby-styled-tailwind-storybook-starter"
@@ -28,6 +35,7 @@
     "build-storybook": "yarn build; NODE_PATH=src/ NODE_ENV=production build-storybook -s public --quiet"
   },
   "dependencies": {
+    "@stackbit/unibit": "0.1.22",
     "gatsby": "^2.17.0",
     "gatsby-plugin-postcss": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.13",
